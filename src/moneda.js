@@ -1,7 +1,7 @@
 
 function cambioMonedas(monto){
     if (monto > 0){
-        return [1];
+        return [monto];
     }
     else{
         return [];

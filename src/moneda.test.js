@@ -9,4 +9,8 @@ describe ("cambio de monedas", () => {
         expect (cambioMonedas (1)).toEqual([1]);
     });
 
+    it ("devolver un vector con 2", ()=> {
+        expect (cambioMonedas (2)).toEqual([2]);
+    });
+
 });
